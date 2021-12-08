@@ -129,6 +129,7 @@ export default {
 
   &__published-date {
     font-size: $font-size-x-small;
+    color: $white;
 
     @include desktop {
       margin-top: 40px;
