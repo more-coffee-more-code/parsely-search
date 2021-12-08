@@ -63,7 +63,7 @@ export default {
     width: 90%;
     display: flex;
     flex-direction: row;
-    margin: 0 auto 50px;
+    margin: 15px auto 50px;
 
     @include desktop {
     max-width: 700px;
@@ -91,8 +91,12 @@ export default {
       text-align: center;
       overflow: hidden;
       max-height: 50px;
-      max-width: 150px;
+      max-width: 120px;
       width: 100%;
+
+      @include desktop {
+        max-width: 150px;
+      }
     }
 
     background: none;
